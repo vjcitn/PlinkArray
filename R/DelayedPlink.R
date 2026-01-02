@@ -20,7 +20,7 @@ setClass("PlinkSeed",
 #' @export
 PlinkSeed <- function(filepath) {
   # Remove .bed extension if present
-  filepath <- sub("\\.bed$", "", filepath)
+  filepath <- sub("\\.bed$", "", filepath)  # consider filepath_as_absolute from tools
   
   # Check files exist
   if (!file.exists(paste0(filepath, ".bed"))) {
@@ -195,5 +195,4 @@ setMethod("show", "PlinkSeed",
         object@dim[2], "variants\n")
   }
 )
-
 

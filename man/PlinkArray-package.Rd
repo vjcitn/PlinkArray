@@ -10,8 +10,8 @@ DelayedArray interface for plink bed files.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/vjcitn/DelayedPlink}
-  \item Report bugs at \url{https://github.com/vjcitn/DelayedPlink/issues}
+  \item \url{https://github.com/vjcitn/PlinkArray}
+  \item Report bugs at \url{https://github.com/vjcitn/PlinkArray/issues}
 }
 
 }
