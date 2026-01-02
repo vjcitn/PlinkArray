@@ -9,9 +9,11 @@
 <url><loc>/reference/PlinkArray.html</loc></url>
 <url><loc>/reference/PlinkSeed-class.html</loc></url>
 <url><loc>/reference/PlinkSeed.html</loc></url>
+<url><loc>/reference/RangedPlink.html</loc></url>
 <url><loc>/reference/decode_bed_genotypes.html</loc></url>
 <url><loc>/reference/dim-PlinkSeed-method.html</loc></url>
 <url><loc>/reference/dimnames-PlinkSeed-method.html</loc></url>
+<url><loc>/reference/example_GRanges.html</loc></url>
 <url><loc>/reference/example_PlinkArray.html</loc></url>
 <url><loc>/reference/extract_array-PlinkSeed-method.html</loc></url>
 <url><loc>/reference/g445samples.html</loc></url>
@@ -20,5 +22,6 @@
 <url><loc>/reference/get_plink_example_path.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
 <url><loc>/reference/show-PlinkSeed-method.html</loc></url>
+<url><loc>/reference/subsetByOverlaps-RangedPlink-GRanges-method.html</loc></url>
 </urlset>
 
