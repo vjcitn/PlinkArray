@@ -23,7 +23,7 @@ get_plink_example_path = function(ca = BiocFileCache::BiocFileCache()) {
 example_PlinkArray = function(folder = tempdir()) {
   pa = get_plink_example_path()
   unzip(pa, exdir = folder)
-  tmp = dir(folder, full=TRUE)
+  tmp = dir(folder, full.names=TRUE)
   remsuff = function(x) sub(".bed$", "", x)
   ppath = remsuff(grep("geuv445.bed", tmp, value=TRUE))
   PlinkArray(ppath)

@@ -1,6 +1,6 @@
 Package: PlinkArray
 Title: DelayedArray interface for plink bed files
-Version: 0.0.3
+Version: 0.0.4
 Authors@R:
     person(given = "Vince",
            family = "Carey",
@@ -12,7 +12,7 @@ Depends: R (>= 4.0.0), methods, Rcpp
 Suggests: knitr, BiocStyle, testthat, rmarkdown, irlba,
 	testthat
 Imports: DelayedArray, BiocFileCache, GenomicRanges,
-	S4Vectors, IRanges
+	S4Vectors, IRanges, reticulate, IRanges
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 biocViews: Infrastructure, Genetics
